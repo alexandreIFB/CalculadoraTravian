@@ -23,7 +23,11 @@ int main()
     double quantidadeCeasis = quantidadeJuntos;
     double quantidadeImperatris = quantidadeJuntos * proporcaoTempo;
 
-    printf("Você deve fazer:\n%.2lf Ceasis\n%.2lf Imperatris\nPara que fiquem o mesmo tempo funcionando\n", quantidadeCeasis, quantidadeImperatris);
+    printf("Você deve fazer:\n"
+           "%.2lf Ceasis\n"
+           "%.2lf Imperatris\n"
+           "Para que fiquem o mesmo tempo funcionando\n",
+           quantidadeCeasis, quantidadeImperatris);
 
     double campoCereal[4] = {11810, 15815, 11810, 3375};
     double celeiro[4] = {4155, 5190, 3635, 1040};
