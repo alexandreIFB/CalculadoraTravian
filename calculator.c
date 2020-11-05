@@ -41,7 +41,7 @@ int main()
         (2 * campoCereal[3]) + celeiro[3] + (quantidadeImperatris * Imperiano[3]) + (quantidadeCeasis * Ceasis[3]),
     };
 
-    printf("O NPC deve se feito com as seguintes quantidade:\n"
+    printf("O NPC deve se feito com as seguintes quantidades:\n"
            "Madeira = %.2lf\n"
            "Barro = %.2lf\n"
            "Ferro = %.2lf\n"
